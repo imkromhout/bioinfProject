@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+
+## STEP1: delete missing data lines + calculate intervals --> new column
+Rscript 1_add_interval_missing_data.R
+echo "Data is complete"                   
+
+## STEP2: create subset of data using only area of interest
+Rscript 2_subset_script.R
+echo "Data of chosen study-area is selected"
+
+## STEP3a: statistical analyses
+Rscript 3a_statistics.R
+echo "Data analyzed"
+
+## STEP3b: create images
+Rscript 3b_maps_creator.R
+echo "Maps of chosen area are created"
+
+## STEP4: create GIFs
+Rscript 4_GIF_creator.R
+echo "GIFS of chosen area are created"
