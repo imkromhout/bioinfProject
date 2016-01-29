@@ -1,0 +1,40 @@
+resultsAllYears
+
+Call:
+lm(formula = first_egg ~ budburst, data = birddata)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-19.355  -9.822   2.002   6.766  28.143 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 25.80418    1.40872  18.317   <2e-16 ***
+budburst     0.03511    0.06479   0.542    0.588    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.47 on 389 degrees of freedom
+Multiple R-squared:  0.0007542,	Adjusted R-squared:  -0.001815 
+F-statistic: 0.2936 on 1 and 389 DF,  p-value: 0.5882
+
+resultsAllYears
+
+Call:
+lm(formula = first_egg ~ budburst, data = birddata)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-19.355  -9.822   2.002   6.766  28.143 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 25.80418    1.40872  18.317   <2e-16 ***
+budburst     0.03511    0.06479   0.542    0.588    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.47 on 389 degrees of freedom
+Multiple R-squared:  0.0007542,	Adjusted R-squared:  -0.001815 
+F-statistic: 0.2936 on 1 and 389 DF,  p-value: 0.5882
+
