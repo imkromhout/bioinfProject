@@ -8,6 +8,7 @@ folder Results shows the created GIFs
 
 Folder scripts contains all scripts needed
 mapDwingelderveld is the main script that will call the following scripts:
+NOTE: If you are not using the BASH script, make sure to use the R scripts in the right order, as presented here.
 1_add_interval_missing_data.R 
 --> adds column of data, removes all lines with missing data
 
