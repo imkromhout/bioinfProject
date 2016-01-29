@@ -1,6 +1,7 @@
 # bioinfProject
 Project for the course Practical Bioinformatics for Biologists
-Goal: Create geological maps with data points, do statistical analyses
+Goal: Create geological maps with data points (bud burst, first egg of breeding pairs), do statistical analyses --> Are timing of breeding and bud burst correlated?
+
 Study area: National Park Dwingelderveld
 ########################
 NOTE: the data is confidential and therefore not provided here. 
